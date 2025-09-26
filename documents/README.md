@@ -10,3 +10,4 @@ Le GET sert à récupérer des donneés et POST sert seulement à envoyer des do
 | **Sécurité (surface)**    | Moins sûre : données exposées dans l’URL, logs, historique | Plus sûre : données non visibles, mieux pour   les données sensibles |
 
 HTTP est extensible car on peut facilement lui ajouter de nouvelles fonctions sans écraser l'ancien contenu, on peut ajouter des informations , donc lui permettre d'évoluer et s'adapter 
+Cela siginifie que il a pas d'état c'est à dire qu'il oublie tout à chaque nouvelle requête, pour contourner ça on peut utiliser les cookies ou les sessions.
