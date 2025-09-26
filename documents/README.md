@@ -9,5 +9,4 @@ Le GET sert à récupérer des donneés et POST sert seulement à envoyer des do
 | **Cas d’usages typiques** | Requêtes de lecture, recherches, navigation       | Soumission de formulaires, envoi de données sensibles |
 | **Sécurité (surface)**    | Moins sûre : données exposées dans l’URL, logs, historique | Plus sûre : données non visibles, mieux pour   les données sensibles |
 
-
-test
+HTTP est extensible car on peut facilement lui ajouter de nouvelles fonctions sans écraser l'ancien contenu, on peut ajouter des informations , donc lui permettre d'évoluer et s'adapter 
